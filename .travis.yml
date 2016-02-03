@@ -1,7 +1,10 @@
 language: ruby
 rvm:
   - 2.3.0
-script: bundle exec rspec
+script: 
+  - RAILS_ENV=test rake db:create
+  - RAILS_ENV=test rake db:migrate
+  - bundle exec rspec
 
 # deploy:
 #   provider: heroku
