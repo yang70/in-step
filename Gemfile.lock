@@ -60,6 +60,7 @@ GEM
     arel (7.0.0)
     bcrypt (3.1.10)
     builder (3.2.2)
+    byebug (8.2.1)
     capybara (2.6.2)
       addressable
       mime-types (>= 1.16)
@@ -227,6 +228,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  byebug
   capybara
   coffee-rails (~> 4.1.0)
   devise!
