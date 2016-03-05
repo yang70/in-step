@@ -16,6 +16,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'byebug'
+  gem 'dotenv-rails'
 end
 
 group :development do
